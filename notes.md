@@ -23,3 +23,7 @@ computer) or remote (hosted on GitHub). Created my first repo, Git-GitHub-Learni
 ## Post 6 - Cloning a Repository
 Learned two ways to work with a repo: adding files directly on GitHub, or cloning
 the full repo, history included, onto my computer with git clone.
+
+## Post 7 - Commits
+Learned that a commit is a saved snapshot of my work.
+Every change moves through three stages: working area, staging area, and committed files.
