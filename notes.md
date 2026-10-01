@@ -31,7 +31,9 @@ Also practiced starting a project locally with git init, connecting it to GitHub
 ## Post 9 - Branches
 Learned that a branch is a separate copy of my project where I can try changes without touching main. Once I'm happy with the changes, they can be merged back into main.
 
+## Post 10 - Pull Requests
+Learned that a pull request is a formal request to merge my branch into main. GitHub shows exactly what changed, line by line, so it can be reviewed before anything gets merged.
+
 ## Post 11 - Merging & Merge Conflicts
-Merging combines a branch's changes into main, usually automatically. 
-But if two edits touch the exact same line differently, Git can't decide which is correct. 
-That's a merge conflict, and it asks us to choose instead of silently overwriting one version.
+Learned that merging combines a branch's changes into main, usually automatically. 
+But if two edits touch the exact same line differently, Git can't decide which is correct, that's a merge conflict, and it asks us to choose instead of silently overwriting one version.
