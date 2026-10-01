@@ -18,22 +18,30 @@ Created a free GitHub account to host my repositories.
 A repository is a project folder that Git is tracking. It can be local (on my computer) or remote (hosted on GitHub). Created my first repo, Git-GitHub-Learning-Log.
 
 ## Post 6 - Cloning a Repository
-Learned two ways to work with a repo: adding files directly on GitHub, or cloning the full repo, history included, onto my computer with git clone.
+There are two ways to work with a repo: adding files directly on GitHub, or cloning the full repo, history included, onto my computer with git clone.
 
 ## Post 7 - Commits
-Learned that a commit is a saved snapshot of my work.
+Commit is a saved snapshot of my work.
 Every change moves through three stages: working area, staging area, and committed files.
 
 ## Post 8 - Push & Pull
-Learned that push sends my saved commits from my computer up to GitHub, and pull brings down any new commits from GitHub to my computer. 
+Push sends my saved commits from my computer up to GitHub, and pull brings down any new commits from GitHub to my computer. 
 Also practiced starting a project locally with git init, connecting it to GitHub with git remote add, and sending it up with git push.
 
 ## Post 9 - Branches
-Learned that a branch is a separate copy of my project where I can try changes without touching main. Once I'm happy with the changes, they can be merged back into main.
+Branch is a separate copy of my project where I can try changes without touching main. Once I'm happy with the changes, they can be merged back into main.
 
 ## Post 10 - Pull Requests
-Learned that a pull request is a formal request to merge my branch into main. GitHub shows exactly what changed, line by line, so it can be reviewed before anything gets merged.
+A pull request is a formal request to merge my branch into main. GitHub shows exactly what changed, line by line, so it can be reviewed before anything gets merged.
 
 ## Post 11 - Merging & Merge Conflicts
-Learned that merging combines a branch's changes into main, usually automatically. 
+Merging combines a branch's changes into main, usually automatically. 
 But if two edits touch the exact same line differently, Git can't decide which is correct, that's a merge conflict, and it asks us to choose instead of silently overwriting one version.
+
+## Post 12 - Everyday Git Commands
+Few more commands I'll actually reach for: 
+git log to see commit history, 
+git diff to see exact line changes before committing, 
+.gitignore to keep secrets and junk files out of a repo, 
+git stash to set aside changes temporarily, and 
+git revert to undo a commit safely without erasing history.
