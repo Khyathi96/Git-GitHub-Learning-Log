@@ -27,3 +27,16 @@ the full repo, history included, onto my computer with git clone.
 ## Post 7 - Commits
 Learned that a commit is a saved snapshot of my work.
 Every change moves through three stages: working area, staging area, and committed files.
+
+## Post 8 - Push & Pull
+Learned that push sends my saved commits from my computer up to GitHub, and pull brings
+down any new commits from GitHub to my computer. Also practiced starting a project locally
+with git init, connecting it to GitHub with git remote add, and sending it up with git push.
+
+## Post 9 - Branches
+Learned that a branch is a separate copy of my project where I can try changes without
+touching main. Once I'm happy with the changes, they can be merged back into main.
+
+## Post 10 - Pull Requests
+Learned that a pull request is a formal request to merge my branch into main. GitHub shows
+exactly what changed, line by line, so it can be reviewed before anything gets merged.
